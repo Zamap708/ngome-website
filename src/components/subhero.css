@@ -1,0 +1,82 @@
+.subhero {
+    padding: 50px 0;
+    margin: 5%;
+    width: 90%;
+    position: relative;
+}
+
+
+
+.news, .pray, .history {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: .75;
+    border-radius: 15px;
+    background-image: url(../assets/images/about-card.jpg);
+}
+
+.subhero--img-wrapper {
+    padding: 0;
+    width: auto !important;
+    height: 225px !important;
+    transition: transform 150ms;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+ 
+}
+
+.subhero--img-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: black;
+    opacity: 0.35; */
+    background: linear-gradient(rgb(0 0 0 / 0), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.subhero--img-wrapper:hover {
+    transform: scale(1.025);
+    text-shadow: 0 0 .15em white;
+    cursor: pointer;
+}
+
+.subhero--img-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 196, 204, 0.0);
+    /* opacity: 0.35; */
+    /* background: linear-gradient(rgb(0 0 0 / 0), rgba(0, 0, 0, 0.5)); */
+    z-index: 2;
+
+    /* transform: translateY(-100%); */
+    transition: 350ms ease-in;
+}
+
+.subhero--img-wrapper:hover::after {
+    background-color: rgb(0, 196, 204, 0.4);
+}
+.subhero-titles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    
+    /* text-shadow: 0 0 .5em white; */
+}
+
