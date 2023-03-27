@@ -1,0 +1,60 @@
+.history {
+    position: relative;
+    margin-top: 80px;
+    width: 90%;
+    height: 90%;
+    margin: 2.5% auto;
+    z-index: 1;
+    padding: 70px 0;
+}
+
+.chapters {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapter {
+    height: 90%;
+    padding: 2.5% 2.5%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.chapter-heading {
+    font-size: 3rem;
+    font-family: BebasNeue;
+    font-weight: 400;
+    color: #196371;
+    text-shadow: 0 0 0.75em white;
+    text-align: center;
+    margin: 0 10px 10px;
+}
+
+.chapter-content {
+    font-size: 1.15rem;
+    font-family: Montserrat;
+    padding: 10px 20px;
+    color: rgb(87, 163, 189);
+}
+
+.chapter-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.chapter-img {
+    height: 300px;
+    max-width: 90%;
+    width: auto;
+    margin: auto;
+}

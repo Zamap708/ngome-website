@@ -17,26 +17,33 @@ main {
     padding: 20px 0;
 }
 
-.blockquote {
-    margin: 0;
-}
-
-
 .quote {
-    /* padding: 2.5%; */
-    margin: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     position: relative;
     text-align: center;
 }
 
+
+.quote {
+    /* padding: 2.5%; */
+    /* margin: auto; */
+
+
+
+}
+
 .quote_text {
+    text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 1.35rem;
-    line-height: 1.8rem;
+    font-size: 2rem;
+    /* line-height: 1.8rem; */
     font-style: italic;
     color: white;
-    margin: 5px 0;
+    margin: 25px 0;
 }
 
 #quote::after {

@@ -14,7 +14,7 @@ export default function Mission() {
                         </blockquote>
                         
                     </div>
-                    <div className="box-content-wrapper">
+                    {/* <div className="box-content-wrapper">
                         <div className=" box">
                             <h3>Our Vision</h3>
                             <p>
@@ -31,7 +31,7 @@ export default function Mission() {
                                 Porro totam ab animi officia vitae quos excepturi dicta?
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
         </main>

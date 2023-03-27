@@ -1,0 +1,42 @@
+#ytplayer {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+.video-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    height: 450px;
+    margin: 5% auto;
+    overflow: hidden;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 2.5%;
+}
+
+.video-title {
+    text-align: center;
+}
+
+.video-container {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
