@@ -1,3 +1,7 @@
+.App {
+    position: relative;
+}
+
 .page-wrapper {
     position: relative;
     box-sizing: border-box;

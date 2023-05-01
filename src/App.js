@@ -7,6 +7,7 @@ import Pilgrims from "./components/Pilgrims";
 import About from "./components/About"
 import History from "./components/History"
 import Contact from "./components/Contact";
+import Login from "./components/Login";
 
 function App() {
 
@@ -19,7 +20,6 @@ function App() {
   })
 
   const changePage = (e) => {
-    console.log("HAHAHAH")
     const active = e.target.id
     setActivePage(prevState => {
       const newState = {}
@@ -38,16 +38,14 @@ function App() {
       <header className="App-header">
         <Navbar handleClick = {changePage} />
       </header>
+
       <div className="page-wrapper">
       {activePage.Home ? <Home handleClick = {changePage}/> : "" }
       {activePage.Pilgrims ? <Pilgrims /> : ""}
       {activePage.History ? <History /> : "" }
       {activePage.About ? <About /> : "" }
-      {activePage.Contact ? <Contact /> : "" }
+      {activePage.Contact ? <Contact /> : ""}
       </div>
- 
-
-      
 
       <Footer handleClick = {changePage}/>
     </div>

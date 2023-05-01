@@ -4,6 +4,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
+    overflow: hidden;
 
     min-width: 200px;
     width: 300px;
@@ -40,7 +41,7 @@
     overflow: hidden;
 }
 
-.login:hover {
+#loginButton:hover {
     box-sizing: border-box;
     color: white !important; 
     background-color: rgb(87, 163, 189);
@@ -51,7 +52,7 @@
     overflow: hidden;
 }
 
-.register:hover {
+#registerButton:hover {
     box-sizing: border-box;
     color: white !important; 
     background-color: rgb(87, 163, 189);

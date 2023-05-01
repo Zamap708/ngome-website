@@ -35,7 +35,7 @@
     color: black;
 }
 
-form > input {
+.contact-input {
     box-sizing: border-box;
 
     height: 40px;
@@ -70,7 +70,7 @@ form > label {
     width: 80px;
     margin: 25px;
     padding: 5px;
-    border: 0px solid #00c4cc;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
 
     font-family: BebasNeue;
@@ -94,8 +94,7 @@ form > label {
     /* background-color: white;
     color: rgb(87, 163, 189); */
 
-    transform: scale(1.05);
-
+    transform: scale(1.03);
 }
 
 .submit-btn:active {

@@ -44,9 +44,9 @@ export default function Navbar(props) {
                     <li className="nav-item">
                         <button 
                             className="nav-link" 
-                            id="News"
+                            id="Community"
                             onClick={props.handleClick}
-                            >News
+                            > Community
                         </button>
                     </li>
                 

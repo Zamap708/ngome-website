@@ -1,5 +1,4 @@
 import "./contact.css"
-import Profile from "./Profile"
 
 export default function Contact() {
 
@@ -16,15 +15,12 @@ export default function Contact() {
                 </h2>
             </div>
             <div className="content-wrapper">
-                <div className="sidebar">
-                    <Profile />
-                </div>
 
                 <form action="" className="contact-form">
                     <h1 className="heading">Enquiry Form:</h1>
-                    <input type="text" placeholder="YOUR NAME"/>
-                    <input type="tel" placeholder="YOUR TEL. NO."/>
-                    <input type="email" placeholder="YOUR EMAIL" />
+                    <input className="contact-input" type="text" placeholder="YOUR NAME"/>
+                    <input className="contact-input"  type="tel" placeholder="YOUR TEL. NO."/>
+                    <input className="contact-input"  type="email" placeholder="YOUR EMAIL" />
                     <textarea placeholder="MESSAGE"/>
 
                     <button className="submit-btn" onClick={handleSubmit}>Submit</button>

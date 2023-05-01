@@ -76,6 +76,7 @@ export default function Pilgrims() {
                 Please click on a 'tab' button to read a specific section.
             </h2>
         </div>
+        
         <div className="content-wrapper">
         
         <div className="sidebar">

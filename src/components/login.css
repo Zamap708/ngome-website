@@ -1,0 +1,157 @@
+.login {
+    position: relative;
+    margin-top: 80px;
+    width: 90%;
+    height: 90%;
+    margin: 2.5% auto;
+    z-index: 1;
+    padding: 70px 0;
+}
+
+.login-modal {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-background {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-form {
+    position: relative;
+    z-index: 99;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 2.5% 2.5%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: Thasadith;
+    font-size: 18px;
+}
+
+.register-form {
+    position: relative;
+    z-index: 99;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /* width: 50%; */
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 2.5% 2.5%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: Thasadith;
+    font-size: 18px;
+}
+
+
+.log-reg-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.unselected {
+    cursor: pointer;
+    color: rgb(25, 99, 113, 0.7);
+}
+
+.unselected:hover {
+    color: rgb(25, 99, 113, 0.85);
+}
+
+.login-input {
+    box-sizing: border-box;
+
+    height: 40px;
+    width: 90%;
+
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+.forgot-password {
+    font-size: 18px;
+    font-family: Montserrat;
+    padding: 10px 20px;
+    color: rgb(87, 163, 189);
+    text-decoration: none; 
+}
+
+.forgot-password:hover {
+    color: #196371;
+}
+
+.login-btn {
+    box-sizing: border-box;
+    min-width: 80px;
+    width: fit-content;
+    margin: 25px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+
+    font-family: BebasNeue;
+    font-size: 25px;
+    font-weight: 200;
+    
+
+    color: white; 
+    background-color: #57a3bd;
+}
+
+.login-btn:hover {
+    box-sizing: border-box;
+
+    transition: all 0.1s;
+    cursor: pointer;
+
+    border: 1px solid #196371;
+    background-color: #196371;
+}
+
+.login-btn:active {
+    transform: scale(1.01);
+}
